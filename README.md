@@ -51,9 +51,9 @@ Inspecione a comunicação no nível de bits sem ferramentas externas (como Wire
 
 ## � Download e Execução Quickstart
 
-Para maior agilidade no campo, o **ModSkan** é distribuído como um executável portátil (Single Binary).
+Para maior agilidade no campo, o **KModbusScanner** é distribuído como um executável portátil (Single Binary).
 
-> [!IMPORTANT]
+> [!IMPORTANTE]
 > **Portabilidade Total:** O software não requer instalação. Basta baixar o arquivo `.exe` e executá-lo diretamente de qualquer pasta ou pendrive.
 ---
 
