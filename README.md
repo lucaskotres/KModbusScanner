@@ -1,8 +1,8 @@
 # 🛡️ ModSkan: Suíte Avançada de Diagnóstico Modbus TCP
 
-> **A ferramenta definitiva para engenharia de campo, comissionamento e análise forense de redes industriais.**
+> **A ferramenta definitiva para engenharia de campo, comissionamento e análise de redes Modbus TCP.**
 
-O **ModSkan** é uma aplicação desktop de alta performance, desenvolvida em Rust, projetada para profissionais de automação que exigem mais do que um simples cliente Modbus. Ele combina a agilidade de um scanner de rede com a profundidade de um analisador de protocolos e a inteligência de estatísticas em tempo real.
+O **KModbusScanner** é uma aplicação desktop de alta performance, desenvolvida em Rust, projetada para profissionais de automação que exigem mais do que um simples cliente Modbus. Ele combina a agilidade de um scanner de rede com a profundidade de um analisador de protocolos e a inteligência de estatísticas em tempo real.
 
 ![Badge](https://img.shields.io/badge/Status-Project_Ready-success)
 ![Badge](https://img.shields.io/badge/Language-Rust-orange)
@@ -24,7 +24,7 @@ Leitura contínua com suporte a conversão de dados complexos:
 * **Data Casting:** Conversão automática para `UInt16`, `Int16`, e `Float32` (com suporte a *Big Endian* e *Word Swapped*).
 * **Motor Assíncrono:** Polling multithread que garante interface fluida mesmo em redes saturadas.
 
-### 🔎 Busca Forense de Memória (Blind Search)
+### 🔎 Busca de Memória (Search)
 Localize variáveis perdidas ou mapas de memória desconhecidos:
 * **Busca por Valor:** Vasculhe faixas de endereços (0-65535) por valores específicos.
 * **Otimização de Pacotes:** Chunking inteligente que lê até 124 registradores por requisição para máxima velocidade.
@@ -38,8 +38,8 @@ Transforme dados crus em inteligência operacional.
 * **Gráficos de Tendência:** Visualização temporal de múltiplas variáveis simultaneamente.
 * **Métricas Estatísticas:** Cálculos automáticos de Mínimo, Máximo, Média e Desvio Padrão.
 * **Detecção de Anomalias:**
-    * **Outliers:** Identificação automática de valores fora da curva (3σ).
-    * **Staller Detection:** Alerta visual quando uma variável para de atualizar ou "congela" na rede.
+    * **Outliers:** Identificação automática de valores fora da curva (3σ). Calculada a partir de 100 leituras.
+    * **Staller Detection:** Alerta visual quando uma variável para de atualizar ou "congela" na rede por mais de 100 leituras.
 
 ### 💻 Nerd Zone: Sniffer de Pacotes Integrado
 Inspecione a comunicação no nível de bits sem ferramentas externas (como Wireshark).
@@ -49,22 +49,12 @@ Inspecione a comunicação no nível de bits sem ferramentas externas (como Wire
 
 ---
 
-## 🛠️ Requisitos e Instalação
+## � Download e Execução Quickstart
 
-### Pré-requisitos
-* **Rust Toolchain:** [Instalar Rust](https://rustup.rs/) (Versão estável mais recente).
-* **Windows Dependencies:** Garantir que o `Visual C++ Build Tools` esteja instalado.
+Para maior agilidade no campo, o **ModSkan** é distribuído como um executável portátil (Single Binary).
 
-### Compilação
-```powershell
-# Clone o repositório
-git clone https://github.com/lucaskotres/KotresModbusScanner2.git
-cd KotresModbusScanner2
-
-# Execute o projeto em modo release
-cargo run --release
-```
-
+> [!IMPORTANT]
+> **Portabilidade Total:** O software não requer instalação. Basta baixar o arquivo `.exe` e executá-lo diretamente de qualquer pasta ou pendrive.
 ---
 
 ## ⚖️ Licença e Termos
@@ -75,8 +65,6 @@ Este software é fornecido como uma ferramenta gratuita para uso profissional e 
 * **Uso:** Permitido para fins pessoais e comerciais.
 * **Redistribuição:** Proibida a venda ou redistribuição comercial do binário ou código-fonte sem autorização prévia.
 * **Garantia:** O software é fornecido "como está", sem garantias de qualquer tipo.
+* **Apoie o desenvolvimento**: Pix: 7bbe381a-1ce3-4d69-9d46-f4d844b732fc - Ou entre em contato pelo email lucaskotres@gmail.com
 
----
 
-> [!TIP]
-> **Dica Pro:** Utilize a porta 502 como padrão, mas lembre-se que alguns equipamentos industriais podem utilizar portas personalizadas configuráveis no Painel de Conexão.
