@@ -1,4 +1,4 @@
-# 🛡️ ModSkan: Suíte Avançada de Diagnóstico Modbus TCP
+# 🛡️ K Modbus Scanner: Suíte Avançada de Diagnóstico Modbus TCP
 
 > **A ferramenta definitiva para engenharia de campo, comissionamento e análise de redes Modbus TCP.**
 
