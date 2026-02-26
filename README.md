@@ -1,6 +1,8 @@
 # 🛡️ K Modbus Scanner: Suíte Avançada de Diagnóstico Modbus TCP
 
 > **A ferramenta definitiva para engenharia de campo, comissionamento e análise de redes Modbus TCP.**
+> <img width="1327" height="818" alt="image" src="https://github.com/user-attachments/assets/45ad2ccd-420f-49ef-955e-3f6f5908aea1" />
+
 
 O **KModbusScanner** é uma aplicação desktop de alta performance, desenvolvida em Rust, projetada para profissionais de automação que exigem mais do que um simples cliente Modbus. Ele combina a agilidade de um scanner de rede com a profundidade de um analisador de protocolos e a inteligência de estatísticas em tempo real.
 
