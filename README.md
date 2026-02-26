@@ -29,7 +29,7 @@ Leitura contínua com suporte a conversão de dados complexos:
 ### 🔎 Busca de Memória (Search)
 Localize variáveis perdidas ou mapas de memória desconhecidos:
 * **Busca por Valor:** Vasculhe faixas de endereços (0-65535) por valores específicos.
-* **Otimização de Pacotes:** Chunking inteligente que lê até 124 registradores por requisição para máxima velocidade.
+* **Otimização de Pacotes:** Leitura de até 124 registradores por requisição para máxima velocidade.
 
 ---
 
@@ -40,20 +40,22 @@ Transforme dados crus em inteligência operacional.
 * **Gráficos de Tendência:** Visualização temporal de múltiplas variáveis simultaneamente.
 * **Métricas Estatísticas:** Cálculos automáticos de Mínimo, Máximo, Média e Desvio Padrão.
 * **Detecção de Anomalias:**
-    * **Outliers:** Identificação automática de valores fora da curva (3σ). Calculada a partir de 100 leituras.
-    * **Staller Detection:** Alerta visual quando uma variável para de atualizar ou "congela" na rede por mais de 100 leituras.
+    * **Outliers:** Identificação automática de valores fora da curva (+3x o desvio padrão). Calculada a partir de 100 leituras.
+    * **Stall Detection:** Alerta visual quando uma variável para de atualizar ou "congela" na rede por mais de 100 leituras.
 
 ### 💻 Nerd Zone: Sniffer de Pacotes Integrado
-Inspecione a comunicação no nível de bits sem ferramentas externas (como Wireshark).
+Inspecione a comunicação no nível de bytes sem ferramentas externas (como Wireshark).
 * **Hex Dump Virtual:** Visualização completa do MBAP Header e PDU.
 * **Diferenciação Visual:** Separação clara entre pacotes enviados (TX) e recebidos (RX).
-* **Análise Forense:** Identificação de IDs de transação e códigos de exceção Modbus nativamente.
+* **Análise:** Identificação de IDs de transação e códigos de exceção Modbus nativamente.
 
 ---
 
-## � Download e Execução Quickstart
+## � Download
 
 Para maior agilidade no campo, o **KModbusScanner** é distribuído como um executável portátil (Single Binary).
+
+[Download](https://github.com/lucaskotres/KModbusScanner/releases/download/1.0.0/KModbusScanner.zip)
 
 > [!IMPORTANTE]
 > **Portabilidade Total:** O software não requer instalação. Basta baixar o arquivo `.exe` e executá-lo diretamente de qualquer pasta ou pendrive.
@@ -63,7 +65,7 @@ Para maior agilidade no campo, o **KModbusScanner** é distribuído como um exec
 
 **Copyright © 2026 Lucas Kotres. Todos os direitos reservados.**
 
-Este software é fornecido como uma ferramenta gratuita para uso profissional e de campo. 
+Este software é fornecido como uma ferramenta gratuita. 
 * **Uso:** Permitido para fins pessoais e comerciais.
 * **Redistribuição:** Proibida a venda ou redistribuição comercial do binário ou código-fonte sem autorização prévia.
 * **Garantia:** O software é fornecido "como está", sem garantias de qualquer tipo.
