@@ -69,6 +69,9 @@ Este software é fornecido como uma ferramenta gratuita.
 * **Uso:** Permitido para fins pessoais e comerciais.
 * **Redistribuição:** Proibida a venda ou redistribuição comercial do binário ou código-fonte sem autorização prévia.
 * **Garantia:** O software é fornecido "como está", sem garantias de qualquer tipo.
-* **Apoie o desenvolvimento**: Pix: 7bbe381a-1ce3-4d69-9d46-f4d844b732fc - Ou entre em contato pelo email lucaskotres@gmail.com
+  
+❤️ Apoie o Projeto
+Se o K Modbus Scanner salvou seu dia em campo ou otimizou seu tempo de comissionamento, considere apoiar o desenvolvimento.  
+ Pix: 7bbe381a-1ce3-4d69-9d46-f4d844b732fc - Ou entre em contato pelo email lucaskotres@gmail.com
 
 
