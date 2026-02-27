@@ -1,4 +1,4 @@
-# 🛡️ K Modbus Scanner: Advanced Modbus TCP Diagnostic Suite / Suíte Avançada de Diagnóstico Modbus TCP 
+# K Modbus Scanner: Advanced Modbus TCP Diagnostic Suite / Suíte Avançada de Diagnóstico Modbus TCP 
 
 [Download](https://github.com/lucaskotres/KModbusScanner/releases/download/1.0.1/KModbusScanner.zip)
 
@@ -17,11 +17,8 @@
 
 **KModbusScanner** is a high-performance desktop application built in Rust, designed for automation professionals who demand more than a simple Modbus client. It combines the agility of a network scanner with the depth of a protocol analyzer and the intelligence of real-time statistics.
 
-![Badge](https://img.shields.io/badge/Status-Project_Ready-success)
-![Badge](https://img.shields.io/badge/Language-Rust-orange)
-![Badge](https://img.shields.io/badge/UI-egui-blue)
 
-## 🚀 Main Features
+##  Main Features
 
 ### 📡 Topology Scanning
 Instantly identify all active devices on your network.
@@ -60,7 +57,7 @@ Inspect byte-level communication without external tools (like Wireshark).
 
 For greater agility in the field, **KModbusScanner** is distributed as a portable executable (Single Binary).
 
-[Download](https://github.com/lucaskotres/KModbusScanner/releases/download/1.0.0/KModbusScanner.zip)
+[Download](https://github.com/lucaskotres/KModbusScanner/releases/download/1.0.1/KModbusScanner.zip)
 
 > [!IMPORTANT]
 > **Total Portability:** The software requires no installation. Just download the `.exe` file and run it directly from any folder or flash drive.
@@ -88,11 +85,8 @@ Pix(Brazil): 7bbe381a-1ce3-4d69-9d46-f4d844b732fc  or Contact via email at lucas
 
 O **KModbusScanner** é uma aplicação desktop de alta performance, desenvolvida em Rust, projetada para profissionais de automação que exigem mais do que um simples cliente Modbus. Ele combina a agilidade de um scanner de rede com a profundidade de um analisador de protocolos e a inteligência de estatísticas em tempo real.
 
-![Badge](https://img.shields.io/badge/Status-Project_Ready-success)
-![Badge](https://img.shields.io/badge/Language-Rust-orange)
-![Badge](https://img.shields.io/badge/UI-egui-blue)
 
-## 🚀 Funcionalidades Principais
+## Funcionalidades Principais
 
 ### 📡 Varredura de Topologia (Scanning)
 Identifique instantaneamente todos os dispositivos ativos em sua rede.
@@ -131,7 +125,7 @@ Inspecione a comunicação no nível de bytes sem ferramentas externas (como Wir
 
 Para maior agilidade no campo, o **KModbusScanner** é distribuído como um executável portátil (Single Binary).
 
-[Download](https://github.com/lucaskotres/KModbusScanner/releases/download/1.0.0/KModbusScanner.zip)
+[Download](https://github.com/lucaskotres/KModbusScanner/releases/download/1.0.1/KModbusScanner.zip)
 
 > [!IMPORTANT]
 > **Portabilidade Total:** O software não requer instalação. Basta baixar o arquivo `.exe` e executá-lo diretamente de qualquer pasta ou pendrive.
