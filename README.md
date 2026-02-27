@@ -1,5 +1,8 @@
 # 🛡️ K Modbus Scanner: Advanced Modbus TCP Diagnostic Suite / Suíte Avançada de Diagnóstico Modbus TCP 
 
+[Download](https://github.com/lucaskotres/KModbusScanner/releases/download/1.0.1/KModbusScanner.zip)
+
+
 
 - [🇺🇸 English Version](#-english-version)
 - [🇧🇷 Versão em Português](#-versão-em-português)
