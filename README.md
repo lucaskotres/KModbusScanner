@@ -12,7 +12,8 @@
 # 🇺🇸 English Version
 
 > **The ultimate tool for field engineering, commissioning, and Modbus TCP network analysis.**
-<img width="1289" height="828" alt="image" src="https://github.com/user-attachments/assets/769b557c-78fb-4648-bda8-874ca6dee4fc" />
+<img width="1202" height="822" alt="image" src="https://github.com/user-attachments/assets/96ac2662-f929-43d4-88bf-b7b7c60d54d9" />
+
 
 
 **KModbusScanner** is a high-performance desktop application built in Rust, designed for automation professionals who demand more than a simple Modbus client. It combines the agility of a network scanner with the depth of a protocol analyzer and the intelligence of real-time statistics.
@@ -81,7 +82,8 @@ Pix(Brazil): 7bbe381a-1ce3-4d69-9d46-f4d844b732fc  or Contact via email at lucas
 # 🇧🇷 Versão em Português
 
 > **A ferramenta definitiva para engenharia de campo, comissionamento e análise de redes Modbus TCP.**
-> <img width="1327" height="818" alt="image" src="https://github.com/user-attachments/assets/45ad2ccd-420f-49ef-955e-3f6f5908aea1" />
+<img width="1202" height="822" alt="image" src="https://github.com/user-attachments/assets/561f9a8f-8aa3-428a-bf2a-1f9b748fe19a" />
+
 
 O **KModbusScanner** é uma aplicação desktop de alta performance, desenvolvida em Rust, projetada para profissionais de automação que exigem mais do que um simples cliente Modbus. Ele combina a agilidade de um scanner de rede com a profundidade de um analisador de protocolos e a inteligência de estatísticas em tempo real.
 
