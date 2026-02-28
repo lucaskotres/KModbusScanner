@@ -1,6 +1,6 @@
 # K Modbus Scanner: Advanced Modbus TCP Diagnostic Suite / Suíte Avançada de Diagnóstico Modbus TCP 
 
-[Download](https://github.com/lucaskotres/KModbusScanner/releases/download/1.0.1/KModbusScanner.zip)
+[Download](https://github.com/lucaskotres/KModbusScanner/releases/download/1.1.0/KModbusScanner.zip)
 
 
 
@@ -57,7 +57,7 @@ Inspect byte-level communication without external tools (like Wireshark).
 
 For greater agility in the field, **KModbusScanner** is distributed as a portable executable (Single Binary).
 
-[Download](https://github.com/lucaskotres/KModbusScanner/releases/download/1.0.1/KModbusScanner.zip)
+[Download](https://github.com/lucaskotres/KModbusScanner/releases/download/1.1.0/KModbusScanner.zip)
 
 > [!IMPORTANT]
 > **Total Portability:** The software requires no installation. Just download the `.exe` file and run it directly from any folder or flash drive.
@@ -125,7 +125,7 @@ Inspecione a comunicação no nível de bytes sem ferramentas externas (como Wir
 
 Para maior agilidade no campo, o **KModbusScanner** é distribuído como um executável portátil (Single Binary).
 
-[Download](https://github.com/lucaskotres/KModbusScanner/releases/download/1.0.1/KModbusScanner.zip)
+[Download](https://github.com/lucaskotres/KModbusScanner/releases/download/1.1.0/KModbusScanner.zip)
 
 > [!IMPORTANT]
 > **Portabilidade Total:** O software não requer instalação. Basta baixar o arquivo `.exe` e executá-lo diretamente de qualquer pasta ou pendrive.
